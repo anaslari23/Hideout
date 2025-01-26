@@ -1,0 +1,1 @@
+ /Users/anaslari/Desktop/social_media_app/.dart_tool/flutter_build/22aa386e0f7501f0800c4ef440ca0dd8/native_assets.yaml: 

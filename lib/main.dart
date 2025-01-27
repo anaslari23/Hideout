@@ -5,12 +5,15 @@ import 'screens/signup/signup_name_screen.dart';
 import 'screens/signup/signup_username_screen.dart';
 import 'screens/signup/signup_phone_screen.dart';
 import 'screens/home_feed_screen.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -23,7 +26,6 @@ class MyApp extends StatelessWidget {
           primary: const Color(0xFF246BFD),
           secondary: const Color(0xFF246BFD).withOpacity(0.1),
           surface: Colors.white,
-          background: const Color(0xFFF8F9FA),
         ),
         textTheme: TextTheme(
           bodyLarge: TextStyle(color: Colors.black.withOpacity(0.87)),
@@ -61,7 +63,6 @@ class MyApp extends StatelessWidget {
           primary: const Color(0xFF246BFD),
           secondary: const Color(0xFF246BFD).withOpacity(0.1),
           surface: const Color(0xFF1E1E1E),
-          background: const Color(0xFF121212),
         ),
         textTheme: TextTheme(
           bodyLarge: TextStyle(color: Colors.white.withOpacity(0.87)),

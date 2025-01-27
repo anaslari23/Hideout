@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-import 'threadsScreen.dart';
-import 'connectScreen/connectScreen.dart';
-import 'films/filmsScreen.dart';
-import 'connectScreen/messages/messagesScreen.dart';
 import 'profile/profile.dart';
+import 'messages/messagesList.dart';
 
 class HomeFeedScreen extends StatefulWidget {
-  const HomeFeedScreen({Key? key}) : super(key: key);
+  const HomeFeedScreen({super.key});
 
   @override
   _HomeFeedScreenState createState() => _HomeFeedScreenState();
@@ -18,10 +15,10 @@ class _HomeFeedScreenState extends State<HomeFeedScreen>
   final List<String> _tabs = [
     'Feed',
     'Threads',
-    'Connect',
+    'Messages',
     'QuickPic',
     'Films',
-    'Messages'
+    'Connect'
   ];
 
   @override
@@ -51,6 +48,7 @@ class _HomeFeedScreenState extends State<HomeFeedScreen>
             Container(
               height: 45,
               padding: const EdgeInsets.symmetric(horizontal: 16),
+              margin: const EdgeInsets.only(top: 0),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemCount: _tabs.length,
@@ -109,10 +107,10 @@ class _HomeFeedScreenState extends State<HomeFeedScreen>
                 children: [
                   _buildFeedContent(isDarkMode),
                   _buildThreadsContent(isDarkMode),
-                  _buildConnectContent(isDarkMode),
+                  MessagesListScreen(),
                   _buildQuickPicContent(isDarkMode),
                   _buildFilmsContent(isDarkMode),
-                  _buildMessagesContent(isDarkMode),
+                  _buildConnectContent(isDarkMode),
                 ],
               ),
             ),
@@ -124,7 +122,8 @@ class _HomeFeedScreenState extends State<HomeFeedScreen>
 
   Widget _buildNavigationHeader(bool isDarkMode) {
     return Container(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      margin: const EdgeInsets.only(bottom: 0),
       child: Column(
         children: [
           Row(
@@ -182,7 +181,6 @@ class _HomeFeedScreenState extends State<HomeFeedScreen>
               ),
             ],
           ),
-          const SizedBox(height: 16),
         ],
       ),
     );
@@ -274,15 +272,6 @@ class _HomeFeedScreenState extends State<HomeFeedScreen>
     return Center(
       child: Text(
         'Films Content',
-        style: TextStyle(color: isDarkMode ? Colors.white : Colors.black),
-      ),
-    );
-  }
-
-  Widget _buildMessagesContent(bool isDarkMode) {
-    return Center(
-      child: Text(
-        'Messages Content',
         style: TextStyle(color: isDarkMode ? Colors.white : Colors.black),
       ),
     );

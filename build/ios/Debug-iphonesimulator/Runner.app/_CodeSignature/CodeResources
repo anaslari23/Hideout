@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ET0VxyBsruzCFE/3XcFuuxdnqcw=
+		9hhRDc/AvlRX8iRhiskkV4Ue1Fw=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		T9r46m5i+pDiQSjo8XTJybRLe24=
+		7NVC4YbCPOA/IiO+FRDfn/AFIbw=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,23 +54,27 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		s8U9LTu0fzE0M/fBZjwkrpaJoGQ=
+		5Q4MFYW9e0ApFXWyABAoLWUEbAc=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		ME0cAg6cl/bTZmwXEVgMugDccUI=
+		E762asgk+e8VB5JtTwIBV0HMlX4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		oG5/OGn+vw7vp/nu5DUDoZJ4nFc=
+		NojP0HneXtYAS4/485wGwiVYhZk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
-		vKJkVIcw+LGHFnKJGwrQwCREv68=
+		EfiZM5XcHa+jtGXAtZ2loGITUxg=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		Z03EyQUCjevcbLezzXyxCS9I8WE=
+		XyDhrOvO4sqy69Qm6X0bRuVXgug=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/ShadowsIntoLight-Regular.ttf</key>
+		<data>
+		5RLWW0Q5joOQchVALUd2Q3UcHfo=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -82,7 +86,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		jR8iLzlTMaVk3I2HearF9uZ1iqg=
+		qUCVclTzhdCTV7dW4AmXvH3qUrM=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -208,6 +212,46 @@
 		<data>
 		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
 		</data>
+		<key>Frameworks/path_provider_foundation.framework/Info.plist</key>
+		<data>
+		v/RUoA5EXHIgIQxq7zLCdsH3tK8=
+		</data>
+		<key>Frameworks/path_provider_foundation.framework/_CodeSignature/CodeResources</key>
+		<data>
+		xn8WpxsaNCpDjadSt1yKuvU2s+A=
+		</data>
+		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation</key>
+		<data>
+		QAW89DTBDdwGwycpqCJkUd1eYqE=
+		</data>
+		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle/Info.plist</key>
+		<data>
+		OP/QYLIbJdSjS5xjPl74ZyZGDlY=
+		</data>
+		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
+		</data>
+		<key>Frameworks/video_player_avfoundation.framework/Info.plist</key>
+		<data>
+		yqeKZBdsqb2J1yTwx/qVFf2crX8=
+		</data>
+		<key>Frameworks/video_player_avfoundation.framework/_CodeSignature/CodeResources</key>
+		<data>
+		pTZWkLt460QqWycUifPxQqFFnfw=
+		</data>
+		<key>Frameworks/video_player_avfoundation.framework/video_player_avfoundation</key>
+		<data>
+		/zrAOBCvG1Cd+Zbhbir0u81abC0=
+		</data>
+		<key>Frameworks/video_player_avfoundation.framework/video_player_avfoundation_privacy.bundle/Info.plist</key>
+		<data>
+		f78GZtDAL1DI76+kXMLW1xsU66c=
+		</data>
+		<key>Frameworks/video_player_avfoundation.framework/video_player_avfoundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		/LX0ZlwxwIAIhjZaDB8EiH5KpXA=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		gVrgPDYOOb5hEFKqlQNYaM2DFRE=
@@ -218,7 +262,7 @@
 		</data>
 		<key>Runner.debug.dylib</key>
 		<data>
-		SQdhO47oWmuuR3dEj0t88CUk8ls=
+		ztVIDVtmQ7VIj/aRzkruhdx1V0Q=
 		</data>
 		<key>__preview.dylib</key>
 		<data>
@@ -252,7 +296,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6p/1tG1UTetRHLPIdn+LCldAYrzE4CsvxMB3YQKUTvI=
+			WSeW3pzv6hWIh/WlXyj+tcPPN9NNlDEbF3bO6Y69k0M=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -301,7 +345,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PK0B3OxjbFi7c3cBsKTeVb6zMnEg7O32EHgNuHISIs0=
+			mBSiyXCdU0IxcCchDxtfN8RunaYcMfoo7N5/OXn7ngI=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -315,35 +359,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O6E95s6Zat6R3xocoZL0l1fVvXYk0bOdZpClFxYbDeU=
+			FImXvbX1FYjp+eHLHoiEVAilwYGVjJQBEMUQCfE4xaE=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AK9VrT1vIYmP534P8JLRoc2lLJQbaGDpko1FyK+MCV0=
+			y4Qdpz77JAvr0UoARJq9ZqHU1XnGB8jEoETcOSCvCKk=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sps95+7JukayebvM0TLjL1LW1VXXndpKp/O8tOm9ZR8=
+			YLn06ke+usAJIfhMDq5vM0Q/OyGRg0QvMy4uAYMCG3U=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zX4DZFvESy3Ue3y2JvUcTsv1Whl6t3JBYotHrBZfviE=
+			8Fj6rwyusrBEfXbcft56ogmDjZZDNaoVcQmF7q4h3vQ=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xXl8l/dr4MBI+qJ/MPFBohGU3wGGrHv3j+xDwyQhzIM=
+			7jCn4Vd8Tx+c2PiVGScsGu2oMdRj+dNMRSCZzMkcNIE=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/fonts/ShadowsIntoLight-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LWlyCLEzqQCrH1YH5DfQObGaD5Vvw9mYdgyrs8Ea07A=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -364,7 +415,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oqGVU/pnbTSalAyuPuujqbZPfuOGBSoCLkRT1Jm7U44=
+			CHaJ9mAQd9V9oCvK3xYY173ChXoky0tqfy3c0Z+ha+g=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -584,11 +635,81 @@
 			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
 			</data>
 		</dict>
+		<key>Frameworks/path_provider_foundation.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cwhq1kOIasbR9BWsNua210rBPJwEQoWVAXUfQ30n/q8=
+			</data>
+		</dict>
+		<key>Frameworks/path_provider_foundation.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I49C7CEWGID+y5oJIHpN+dVRjXGl77vgkIhBfBWD9LA=
+			</data>
+		</dict>
+		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nj2BUMBaY+DhSVBMN6A0I0rvZG/vCcNB+xjYJC3fkwc=
+			</data>
+		</dict>
+		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			urlQ1a6ooWlN6BQClBG13j8l4Dj8qxYNqVsfEmdXvZs=
+			</data>
+		</dict>
+		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
+			</data>
+		</dict>
+		<key>Frameworks/video_player_avfoundation.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UIlthliIXwhRE+dGt3Rg1LDdScdNtxhPvUB900AzT5Q=
+			</data>
+		</dict>
+		<key>Frameworks/video_player_avfoundation.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zWtOcOoXRshZptW6x6baRwQMOU6qfT3E82SuVkyj65E=
+			</data>
+		</dict>
+		<key>Frameworks/video_player_avfoundation.framework/video_player_avfoundation</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7xhZq3z/P30BVj3vRgPKieOal7tQHn5NO7r+SvbnE+M=
+			</data>
+		</dict>
+		<key>Frameworks/video_player_avfoundation.framework/video_player_avfoundation_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fg26fWmHCHIX2LGbZxKZ2NmEmIauc/rUI/03XT7Usew=
+			</data>
+		</dict>
+		<key>Frameworks/video_player_avfoundation.framework/video_player_avfoundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bS2g2NkwIn1CjB2TY7CtbjoS4sm2jFzilxWKdBL8jDE=
+			</data>
+		</dict>
 		<key>Runner.debug.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FwJR3xeSobqZ7bNnrzMAjWasCL5OMS5+KPwGlayflys=
+			Mr9SRZ7cojUgf0Q9S6kgW0b0dGqonZwOn8MZmCducCg=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>

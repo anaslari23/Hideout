@@ -1,6 +1,19 @@
 import 'package:flutter/material.dart';
 
-class ThreadsScreen extends StatelessWidget {
+class ThreadsScreen extends StatefulWidget {
+  const ThreadsScreen({super.key});
+
+  @override
+  _ThreadsScreenState createState() => _ThreadsScreenState();
+}
+
+class _ThreadsScreenState extends State<ThreadsScreen> {
+  List<bool> likedThreads = [
+    false,
+    false,
+    false
+  ]; // Track liked state for each thread
+
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
@@ -34,11 +47,28 @@ class ThreadsScreen extends StatelessWidget {
               const SizedBox(height: 12),
               Row(
                 children: [
-                  _buildInteractionButton(Icons.favorite_border),
+                  _buildInteractionButton(
+                    likedThreads[index]
+                        ? Icons.favorite
+                        : Icons.favorite_border,
+                    () {
+                      setState(() {
+                        likedThreads[index] = !likedThreads[index];
+                      });
+                      print('Liked thread $index: ${likedThreads[index]}');
+                    },
+                  ),
                   const SizedBox(width: 16),
-                  _buildInteractionButton(Icons.chat_bubble_outline),
+                  _buildInteractionButton(Icons.chat_bubble_outline, () {
+                    // Handle reply action
+                    print('Reply to thread $index');
+                    // You can add navigation to a reply screen here
+                  }),
                   const SizedBox(width: 16),
-                  _buildInteractionButton(Icons.share_outlined),
+                  _buildInteractionButton(Icons.share_outlined, () {
+                    // Handle share action
+                    print('Shared thread $index');
+                  }),
                 ],
               ),
             ],
@@ -48,9 +78,9 @@ class ThreadsScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildInteractionButton(IconData icon) {
+  Widget _buildInteractionButton(IconData icon, VoidCallback onPressed) {
     return GestureDetector(
-      onTap: () {},
+      onTap: onPressed,
       child: Icon(icon, size: 24, color: Colors.black87),
     );
   }

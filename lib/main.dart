@@ -5,7 +5,6 @@ import 'screens/signup/signup_name_screen.dart';
 import 'screens/signup/signup_username_screen.dart';
 import 'screens/signup/signup_phone_screen.dart';
 import 'screens/home_feed_screen.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(MyApp());

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'messages.dart';
+
 class MessagesListScreen extends StatefulWidget {
   const MessagesListScreen({super.key});
 
@@ -18,36 +20,42 @@ class _MessagesListScreenState extends State<MessagesListScreen> {
       message: 'Did you see the message?',
       unreadCount: 2,
       isUnread: true,
+      senderAvatar: 'https://picsum.photos/200?random=1',
     ),
     MessageItem(
       username: 'User 2',
       message: 'Send the photos quick',
       unreadCount: 3,
       isUnread: true,
+      senderAvatar: 'https://picsum.photos/200?random=2',
     ),
     MessageItem(
       username: 'User 4',
       message: 'When are we meeting?',
       unreadCount: 1,
       isUnread: true,
+      senderAvatar: 'https://picsum.photos/200?random=4',
     ),
     MessageItem(
       username: 'Shifa',
       message: 'You: All good!',
       unreadCount: 0,
       isUnread: false,
+      senderAvatar: 'https://picsum.photos/200?random=5',
     ),
     MessageItem(
       username: 'User 3',
       message: 'You: see you soon',
       unreadCount: 0,
       isUnread: false,
+      senderAvatar: 'https://picsum.photos/200?random=3',
     ),
     MessageItem(
       username: 'User 5',
       message: 'Fuck off!',
       unreadCount: 1,
       isUnread: true,
+      senderAvatar: 'https://picsum.photos/200?random=6',
     ),
   ];
 
@@ -68,8 +76,8 @@ class _MessagesListScreenState extends State<MessagesListScreen> {
                 index: _selectedPageIndex,
                 children: [
                   _buildMessagesList(isDarkMode),
-                  Container(child: Center(child: Text('Video Screen'))),
-                  Container(child: Center(child: Text('Phone Screen'))),
+                  const Center(child: Text('Video Screen')),
+                  const Center(child: Text('Phone Screen')),
                 ],
               ),
             ),
@@ -154,60 +162,72 @@ class _MessagesListScreenState extends State<MessagesListScreen> {
       padding: const EdgeInsets.symmetric(horizontal: 16),
       itemBuilder: (context, index) {
         final message = _messages[index];
-        return Container(
-          padding: const EdgeInsets.symmetric(vertical: 12),
-          child: Row(
-            children: [
-              CircleAvatar(
-                radius: 24,
-                backgroundImage: NetworkImage(
-                    'https://picsum.photos/200?random=${index + 1}'),
+        return GestureDetector(
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => ChatScreen(message: message),
               ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      message.username,
-                      style: TextStyle(
-                        fontWeight: FontWeight.w600,
-                        fontSize: 16,
-                        color: isDarkMode ? Colors.white : Colors.black,
-                      ),
-                    ),
-                    const SizedBox(height: 4),
-                    Text(
-                      message.message,
-                      style: TextStyle(
-                        color: isDarkMode ? Colors.grey[400] : Colors.grey[600],
-                        fontSize: 14,
-                      ),
-                    ),
-                  ],
+            );
+          },
+          child: Container(
+            padding: const EdgeInsets.symmetric(vertical: 12),
+            child: Row(
+              children: [
+                CircleAvatar(
+                  radius: 24,
+                  backgroundImage: NetworkImage(
+                      message.senderAvatar ?? 'https://picsum.photos/200'),
                 ),
-              ),
-              if (message.unreadCount > 0)
-                Container(
-                  width: 24,
-                  height: 24,
-                  decoration: BoxDecoration(
-                    color:
-                        isDarkMode ? Colors.grey[700] : const Color(0xFFC8A2C8),
-                    shape: BoxShape.circle,
-                  ),
-                  child: Center(
-                    child: Text(
-                      message.unreadCount.toString(),
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 12,
-                        fontWeight: FontWeight.bold,
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        message.username,
+                        style: TextStyle(
+                          fontWeight: FontWeight.w600,
+                          fontSize: 16,
+                          color: isDarkMode ? Colors.white : Colors.black,
+                        ),
                       ),
-                    ),
+                      const SizedBox(height: 4),
+                      Text(
+                        message.message,
+                        style: TextStyle(
+                          color:
+                              isDarkMode ? Colors.grey[400] : Colors.grey[600],
+                          fontSize: 14,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
-            ],
+                if (message.unreadCount > 0)
+                  Container(
+                    width: 24,
+                    height: 24,
+                    decoration: BoxDecoration(
+                      color: isDarkMode
+                          ? Colors.grey[700]
+                          : const Color(0xFFC8A2C8),
+                      shape: BoxShape.circle,
+                    ),
+                    child: Center(
+                      child: Text(
+                        message.unreadCount.toString(),
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 12,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+              ],
+            ),
           ),
         );
       },
@@ -262,11 +282,13 @@ class MessageItem {
   final String message;
   final int unreadCount;
   final bool isUnread;
+  final String? senderAvatar;
 
   MessageItem({
     required this.username,
     required this.message,
     required this.unreadCount,
     required this.isUnread,
+    required this.senderAvatar,
   });
 }

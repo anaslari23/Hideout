@@ -28,6 +28,7 @@ INJECTED from /Users/anaslari/Desktop/social_media_app/android/app/src/debug/And
 INJECTED from /Users/anaslari/Desktop/social_media_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 MERGED from [:camera_android] /Users/anaslari/Desktop/social_media_app/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/anaslari/Desktop/social_media_app/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /Users/anaslari/Desktop/social_media_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:video_player_android] /Users/anaslari/Desktop/social_media_app/build/video_player_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.7.1] /Users/anaslari/.gradle/caches/transforms-3/ca4d40f38b71d4c621d36eba6fe2f4a4/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.media3:media3-extractor:1.4.1] /Users/anaslari/.gradle/caches/transforms-3/0c1e74314e2e2fac66666c2d6213ef92/transformed/jetified-media3-extractor-1.4.1/AndroidManifest.xml:17:1-22:12
@@ -105,6 +106,8 @@ MERGED from [:camera_android] /Users/anaslari/Desktop/social_media_app/build/cam
 MERGED from [:camera_android] /Users/anaslari/Desktop/social_media_app/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/anaslari/Desktop/social_media_app/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/anaslari/Desktop/social_media_app/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/anaslari/Desktop/social_media_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/anaslari/Desktop/social_media_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:video_player_android] /Users/anaslari/Desktop/social_media_app/build/video_player_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:video_player_android] /Users/anaslari/Desktop/social_media_app/build/video_player_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] /Users/anaslari/.gradle/caches/transforms-3/ca4d40f38b71d4c621d36eba6fe2f4a4/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44

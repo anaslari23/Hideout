@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'profile/profile.dart';
 import 'messages/messagesList.dart';
+import 'films/filmsScreen.dart';
+import 'camera_screen.dart';
 
 class HomeFeedScreen extends StatefulWidget {
   const HomeFeedScreen({super.key});
@@ -109,7 +111,7 @@ class _HomeFeedScreenState extends State<HomeFeedScreen>
                   _buildThreadsContent(isDarkMode),
                   MessagesListScreen(),
                   _buildQuickPicContent(isDarkMode),
-                  _buildFilmsContent(isDarkMode),
+                  FilmsScreen(),
                   _buildConnectContent(isDarkMode),
                 ],
               ),
@@ -139,6 +141,14 @@ class _HomeFeedScreenState extends State<HomeFeedScreen>
               ),
               Row(
                 children: [
+                  IconButton(
+                    icon: Icon(Icons.camera_alt,
+                        color: isDarkMode ? Colors.white : Colors.black),
+                    onPressed: () {
+                      _openCamera();
+                    },
+                  ),
+                  const SizedBox(width: 16),
                   IconButton(
                     icon: Icon(Icons.search,
                         color: isDarkMode ? Colors.white : Colors.black),
@@ -268,15 +278,6 @@ class _HomeFeedScreenState extends State<HomeFeedScreen>
     );
   }
 
-  Widget _buildFilmsContent(bool isDarkMode) {
-    return Center(
-      child: Text(
-        'Films Content',
-        style: TextStyle(color: isDarkMode ? Colors.white : Colors.black),
-      ),
-    );
-  }
-
   Widget _buildStoryRow(bool isDarkMode) {
     return Container(
       height: 90,
@@ -381,6 +382,13 @@ class _HomeFeedScreenState extends State<HomeFeedScreen>
       onTap: () {},
       child: Icon(icon,
           size: 24, color: isDarkMode ? Colors.white70 : Colors.black87),
+    );
+  }
+
+  void _openCamera() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => CameraScreen()),
     );
   }
 }

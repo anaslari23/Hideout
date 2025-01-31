@@ -15,15 +15,15 @@
     },
     {
       "name": "camera",
-      "rootUri": "file:///Users/anaslari/.pub-cache/hosted/pub.dev/camera-0.10.6",
+      "rootUri": "file:///Users/anaslari/.pub-cache/hosted/pub.dev/camera-0.11.1",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.6"
     },
     {
-      "name": "camera_android",
-      "rootUri": "file:///Users/anaslari/.pub-cache/hosted/pub.dev/camera_android-0.10.10",
+      "name": "camera_android_camerax",
+      "rootUri": "file:///Users/anaslari/.pub-cache/hosted/pub.dev/camera_android_camerax-0.6.13",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.6"
     },
     {
       "name": "camera_avfoundation",
@@ -150,6 +150,12 @@
       "rootUri": "file:///Users/anaslari/.pub-cache/hosted/pub.dev/http_parser-4.1.2",
       "packageUri": "lib/",
       "languageVersion": "3.4"
+    },
+    {
+      "name": "image_gallery_saver",
+      "rootUri": "file:///Users/anaslari/.pub-cache/hosted/pub.dev/image_gallery_saver-2.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "leak_tracker",
@@ -362,7 +368,7 @@
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-01-28T13:02:12.611024Z",
+  "generated": "2025-01-29T02:54:39.994580Z",
   "generator": "pub",
   "generatorVersion": "3.6.1",
   "flutterRoot": "file:///Users/anaslari/FlutterDev/flutter",
